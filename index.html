@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Deep-Check</title>
+  <link rel="stylesheet" href="maincss.css">
+
+</head>
+
+<body>
+  <header>
+    <div id="icon">
+      <img src="ocean.png" alt="" height="60px" width="60px" id="icon2img">
+      <h1>Deep-Check</h1>
+    </div>
+    <navbar class="navbar">
+      <ul>
+        <li id="home"><a href="#headline" class="active" id="kto">Know The Ocean</a></li>
+        <li id="2ndtab"><a href="#timer" id="count"> Countdown for rise in sea level</a></li>
+      </ul>
+    </navbar>
+
+  </header>
+  <div class="sidepop" id="pop">
+    <br> Please <br><br>Select an<br><br>Ocean
+  </div>
+  <div class="welmsg" id="welmsg"><strong>Welcome Pranay Sharma !</strong></div>
+  
+  <img src="sea-gull.gif" class="seagull" id="extraimg" height="100px" width="100px">
+  <img src="worldmap.jfif" class="worldmap" id="worldmap">
+  <div class="oceans">
+    <span class="oceans" id="paci" onclick="paci()"><a href="#headline">Pacific Ocean</a></span>
+    <span class="oceans" id="Indian" onclick="Indian()"><a href="#headline">Indian Ocean</a></span>
+    <span class="oceans" id="Atlanic" onclick="Atlantic()"><a href="#headline">Atlanic<br>Ocean</a></span>
+    <span class="oceans" id="Southern" onclick="Southern()"><a href="#headline">Southern Ocean</a></span>
+    <span class="oceans" id="Artic" onclick="Arctic()"><a href="#headline">Arctic Ocean</a></span>
+  </div>
+  <div class="info"></div>
+  <img src="whale.gif" class="whale" id="whale">
+  <img src="turtle.gif" class="turtle">
+  <script src="java.js"></script>
+  <div class="infoocs" id="hide">
+    <span class="infoocs" id="headhide"><a href="#worldmap" id="pso"> Please Select an Ocean !</a></span>
+  </div><br><br>
+  <span class="ochead" id="head">&nbsp;&nbsp;&nbsp;Lets Know Our Oceans Better &nbsp;&nbsp;&nbsp;</span>
+  <div class="infooc">
+    <span class="infooc" id="headline"></span>
+    <br><br>
+    <span class="infooc" id="dept"></span>
+    <br><br><br>
+    <span class="infooc" id="desc"></span>
+    <!--<input type="radio" class="infoocrad" id="radio1" onclick="" value="Meters" checked>
+    <input type="radio" class="infoocrad" id="radio2" onclick="" value="feets">--> 
+
+  </div>
+  <br><br>
+  <div class="age">
+    Sea Level will be increased by 3.7mm in <br><br>
+    <span class="age" id="timer"></span>
+  </div>
+</body>
+</html>
