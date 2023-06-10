@@ -11,11 +11,11 @@ body {
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     display: grid;
-    grid-template-columns: 400px 400px ;
+    grid-template-columns: 26.6% 400px ;
     background-color: black;
     opacity: 0.7;
     height: 35px;
-    width: 1000px;
+    width: 66%;
     border-radius: 20px;
     padding: 20px;
     margin: 20px auto;
@@ -31,8 +31,8 @@ body {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     color: black;
-    width: 800px;
-    margin-left: 450px;
+    width: 54%;
+    margin-left: 30%;
 }
 .navbar li {
     list-style: none;
@@ -69,7 +69,7 @@ body {
 #icon h1 {
     font-family: icon type;
     float: right;
-    margin-left: 10px;
+    margin-left: 0.66%;
     margin-top: 10px;
     position: sticky;
 }
@@ -77,20 +77,20 @@ body {
 #icon2img:hover {
     transform: rotate(360deg);
     height: 70px;
-    width: 70px;
+    width: 4.6%;
     transition: 3s;
 }
 .seagull#extraimg{
 
     float: left;
-    margin-left: 30px;
+    margin-left: 2%;
     margin-top: 20px;
 }
 
 .worldmap {
     border-radius: 40px;
     height: 600px;
-    width: 1200px;
+    width: 80%;
     margin-left: 100px;
 }
 a#kto{color: white;}
@@ -114,7 +114,7 @@ a {
 .oceans#paci {
     position: absolute;
     top: 510px;
-    left: 330px;
+    left: 22%;
 
 }
 
@@ -128,33 +128,33 @@ a {
 .oceans#Indian {
     position: absolute;
     top: 470px;
-    left: 1030px;
+    left: 68.6%;
 }
 
 .oceans#Atlanic {
     position: absolute;
     top: 310px;
-    left: 650px;
+    left: 43.3%;
 }
 
 .oceans#Southern {
     
     position: absolute;
     top: 630px;
-    left: 930px;
+    left: 62%;
 }
 
 .oceans#Artic {
     position: absolute;
     top: 150px;
-    left: 300px;
+    left: 20%;
 }
 .whale{
     height: 100px;
     width: 100px;
     position: absolute;
     top: 510px;
-    left: 1050px;
+    left: 70%;
 
 }
 .turtle{
@@ -162,18 +162,18 @@ a {
     width: 80px;
     position: absolute;
     top: 370px;
-    left: 400px;
+    left: 26.6%;
 }
 .infoocs#hide {
     border-radius: 40px;
     text-align: center;
     height: 600px;
-    width: 1200px;
+    width: 80%;
     
     background-color: cadetblue;
     position: absolute;
     top: 861px;
-    left: 240px;
+    left: 16%;
     z-index: 2;
 }
 .infoocs#headhide
@@ -187,10 +187,10 @@ a {
     border-radius: 40px;
     background-color: lightcoral;
     height: 600px;
-    width: 1200px;
+    width: 80%;
     position: relative;
     top: 12px;
-    left: 232px;
+    left: 15.4%;
     z-index: 1;
     
     
@@ -228,7 +228,7 @@ a {
     text-align: center;
     height: 100px;
     width: 40%;
-    margin-left: 500px;
+    margin-left: 33.3%;
     font-size: 30px;
     font-weight: 400;
 }
@@ -243,13 +243,18 @@ a {
     font-weight: bold;
     font-size: 30px;
     height: 250px;
-    width: 170px;
+    width: 11.3%;
     background-color: cadetblue;
     float: left;
     position: absolute;
     top: 300px;
-    left: 50px;
+    left: 3.3%;
     border-radius: 2000px;
     border-color: red;
     border-style: groove;
 }
+@media screen and (max-width: 1451) {
+    .worldmap{ 
+        width: 1000px;
+    }
+} 
