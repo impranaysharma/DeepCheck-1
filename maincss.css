@@ -11,20 +11,20 @@ body {
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     display: grid;
-    grid-template-columns: 26.6% 400px ;
+    grid-template-columns: 40% 40%;
     background-color: black;
     opacity: 0.7;
     height: 35px;
     width: 66%;
     border-radius: 20px;
-    padding: 20px;
+    padding: 25px;
     margin: 20px auto;
     align-content: center;
     justify-content: center;
 
 }
 
-.welmsg{
+.welmsg {
     text-align: center;
     font-size: 30px;
     background-color: cadetblue;
@@ -34,6 +34,7 @@ body {
     width: 54%;
     margin-left: 30%;
 }
+
 .navbar li {
     list-style: none;
     align-content: center;
@@ -50,12 +51,13 @@ body {
 }
 
 #icon {
+    width: 16.6%;
     display: flex;
     flex-direction: row;
     position: sticky;
     float: left;
     top: 0px;
-    margin-left: 10px;
+    margin-left: 0.66%;
     text-shadow: white 1px 1px;
 
 
@@ -67,7 +69,7 @@ body {
 }
 
 #icon h1 {
-    font-family: icon type;
+    width: 12% icon type;
     float: right;
     margin-left: 0.66%;
     margin-top: 10px;
@@ -77,11 +79,13 @@ body {
 #icon2img:hover {
     transform: rotate(360deg);
     height: 70px;
-    width: 4.6%;
+    width: 69px;
     transition: 3s;
 }
-.seagull#extraimg{
 
+.seagull#extraimg {
+
+    width: 5.8%;
     float: left;
     margin-left: 2%;
     margin-top: 20px;
@@ -91,24 +95,33 @@ body {
     border-radius: 40px;
     height: 600px;
     width: 80%;
-    margin-left: 100px;
+    margin-left: 6.66%;
 }
-a#kto{color: white;}
-a#count{color: white;}
-a#pso{color: white;}
+
+a#kto {
+    color: white;
+}
+
+a#count {
+    color: white;
+}
+
+a#pso {
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: brown;
 }
 
 
-.oceans {text-decoration: gray underline;
+.oceans {
+    text-decoration: gray underline;
     color: brown;
     font-weight: bolder;
     text-shadow: 0px 0px 2px;
     font-size: 25px;
-
-
 }
 
 .oceans#paci {
@@ -138,7 +151,7 @@ a {
 }
 
 .oceans#Southern {
-    
+
     position: absolute;
     top: 630px;
     left: 62%;
@@ -146,10 +159,11 @@ a {
 
 .oceans#Artic {
     position: absolute;
-    top: 150px;
+    top: 160px;
     left: 20%;
 }
-.whale{
+
+.whale {
     height: 100px;
     width: 100px;
     position: absolute;
@@ -157,33 +171,36 @@ a {
     left: 70%;
 
 }
-.turtle{
+
+.turtle {
     height: 80px;
     width: 80px;
     position: absolute;
     top: 370px;
-    left: 26.6%;
+    left: 25.6%;
 }
+
 .infoocs#hide {
     border-radius: 40px;
     text-align: center;
     height: 600px;
     width: 80%;
-    
+
     background-color: cadetblue;
     position: absolute;
-    top: 861px;
+    top: 864px;
     left: 16%;
     z-index: 2;
 }
-.infoocs#headhide
-{ 
-  font-size: 60px;
-  position: relative;
-  top: 30%;
+
+.infoocs#headhide {
+    font-size: 60px;
+    position: relative;
+    top: 30%;
 
 }
-.infooc{
+
+.infooc {
     border-radius: 40px;
     background-color: lightcoral;
     height: 600px;
@@ -192,58 +209,67 @@ a {
     top: 12px;
     left: 15.4%;
     z-index: 1;
-    
-    
+
+
 }
-.infooc#headline{
-    text-align: center; 
+
+.infooc#headline {
+    text-align: center;
     margin-left: 18%;
     font-size: 40px;
     text-decoration: underline;
 
 }
-.ochead#head{
+
+.ochead#head {
     text-shadow: red 1px 1px 1px;
     border-radius: 20%;
     color: cadetblue;
     text-align: center;
-    font-size: 50px;
-    margin-left: 30%;
+    font-size: 45px;
+    margin-left: 22%;
     font-weight: bolder;
     background-color: pink;
 
+
 }
-.infooc#dept{
-    
+
+.infooc#dept {
+
     font-size: 30px;
 }
-.infooc#desc{
+
+.infooc#desc {
     font-size: 20px;
 }
-.age{margin: auto;
+
+.age {
+    margin: auto;
     z-index: 0;
     border-radius: 50px;
     padding: 20px;
     background-color: aquamarine;
     text-align: center;
     height: 100px;
-    width: 40%;
-    margin-left: 33.3%;
+    width: 50%;
+    margin-left: 27.3%;
     font-size: 30px;
     font-weight: 400;
 }
-.age#timer{
+
+.age#timer {
     z-index: 1;
     font-size: 40px;
     font-weight: 700;
     margin: auto;
 }
-.sidepop#pop{
+
+.sidepop#pop {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    height: 250px;
-    width: 11.3%;
+    height: 300px;
+    width: max-content 11.3%;
     background-color: cadetblue;
     float: left;
     position: absolute;
@@ -253,8 +279,104 @@ a {
     border-color: red;
     border-style: groove;
 }
-@media screen and (max-width: 1451) {
-    .worldmap{ 
-        width: 1000px;
+
+@media (max-width: 843px) {
+    .seagull {
+        display: none;
     }
-} 
+
+    .sidepop#pop {
+        display: none;
+    }
+
+    .worldmap {
+        margin-left: 14%;
+        height: 400px;
+    }
+
+    .oceans {
+        font-size: 15px;
+    }
+
+    .whale {
+        height: 40px;
+        width: 41px;
+        top: 340px;
+        left: 67%;
+    }
+
+    .turtle {
+        height: 40px;
+        width: 40px;
+        top: 270px;
+        left: 23%;
+    }
+
+    .oceans#Indian {
+        top: 370px;
+    }
+
+    .oceans#Southern {
+        top: 470px;
+
+    }
+
+    .oceans#Artic {
+        top: 145px;
+
+    }
+
+    .oceans#paci {
+        top: 360px;
+    }
+
+    .ochead#head {
+        font-size: 25px;
+    }
+
+    .navbar li {
+        font-size: 15px;
+
+    }
+
+    .navbar ul {
+        width: 50%;
+        height: 30px;
+    }
+
+    #icon2img:hover {
+        height: 50px;
+        width: 50px;
+    }
+
+    #icon h1 {
+        width: 8%;
+        font-size: 20px;
+    }
+
+    #icon {
+        width: 12%;
+    }
+
+    .welmsg {
+        font-size: 20px;
+    }
+
+    .age {
+        font-size: 20px;
+    }
+
+    .age#timer {
+        font-size: 30px;
+    }
+
+    .infoocs#hide {
+        top: 625px;
+    }
+
+    .ochead#head {
+        margin-left: 25%;
+    }
+
+
+}
