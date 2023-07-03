@@ -242,6 +242,8 @@ a {
 
 .infooc#desc {
     font-size: 20px;
+    position: relative;
+    top: 0%;
 }
 
 .age {
