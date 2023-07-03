@@ -500,16 +500,14 @@ a {
         height: 8px;
     }
     .navbar li:hover {
-        font-size: 12px;
+        font-size: 8px;
     }
     .oceans:hover {
         font-size: 12px;
     
     }
     .navbar li {
-
         font-size: 7px;
-
     }
 
     .welmsg {
