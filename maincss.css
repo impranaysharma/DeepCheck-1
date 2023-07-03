@@ -201,6 +201,7 @@ a {
 }
 
 .infooc {
+    justify-content: space-around;
     border-radius: 40px;
     background-color: lightcoral;
     height: 600px;
@@ -209,7 +210,6 @@ a {
     top: 12px;
     left: 15.4%;
     z-index: 1;
-
 
 }
 
@@ -374,8 +374,13 @@ a {
     .infoocs#hide {
         top: 625px;
     }
+    .infooc#desc {
+        font-size: 15px;
+    }
+    .infooc#dept {
 
-
+        font-size: 23px;
+    }
 
 }
 
@@ -435,7 +440,13 @@ a {
         top: 240px;
         left: 23%;
     }
+    .infooc#dept {
 
+        font-size: 16px;
+    }
+    .infooc#desc {
+        font-size: 10px;
+    }
     .ochead#head {
         font-size: 20px;
     }
@@ -488,7 +499,13 @@ a {
         width: 35%;
         height: 8px;
     }
-
+    .navbar li:hover {
+        font-size: 12px;
+    }
+    .oceans:hover {
+        font-size: 12px;
+    
+    }
     .navbar li {
 
         font-size: 7px;
@@ -502,7 +519,13 @@ a {
     .oceans#Indian {
         top: 235px;
     }
+    .infooc#dept {
 
+        font-size: 9px;
+    }
+    .infooc#desc {
+        font-size: 5px;
+    }
     .oceans#Southern {
         top: 310px;
 
@@ -544,5 +567,7 @@ a {
     .infoocs#headhide {
         font-size: 40px;
     }
-
+.infooc#headline {
+    font-size: 18px;
+}
 }
